@@ -29,7 +29,7 @@ app.get('/api/custbyid/:id?',function(req,res){
     //res.send(cust);
 })
 app.get('/api/addcustomer',function(req,res){
-    console.log(req.query.name,req.query.address)
+    //console.log(req.query.name,req.query.address)
     if(!req.query.name){
     res.render("addcustomer")
     }
