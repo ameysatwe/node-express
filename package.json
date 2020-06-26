@@ -1,0 +1,29 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "Test for the node express lecture",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "app.js",
+    "dev": "nodemon app.ts"
+  },
+  "author": "Amey Satwe",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/express": "^4.17.6",
+    "@types/hbs": "^4.0.1",
+    "@types/node": "^14.0.13",
+    "@types/validator": "^13.1.0",
+    "@types/yargs": "^15.0.5",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5",
+    "validator": "^13.1.1",
+    "yargs": "^15.3.1"
+  }
+}

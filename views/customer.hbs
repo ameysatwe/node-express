@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer</title>
+    <style>
+        .hi{
+            color:blue;
+            text-decoration: dotted;
+            }
+        .p{
+            
+        }
+    </style>
+</head>
+<body>
+    Id is {{id}}
+    <br>
+    Customer name is {{name}}
+    <br>
+    Address is {{address}}
+    {{!-- numbers are{{phoneno[0]}} --}}
+    <br>
+    {{#each phoneno}}
+    <p class="hi">{{ph1}}</p>
+    <br>
+    {{/each}}
+</body>
+</html>
